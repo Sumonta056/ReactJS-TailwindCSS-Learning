@@ -1,4 +1,7 @@
-# Learning React JS
+
+![](/logo.png)
+
+# Learning ReactJS & TailwindCSS 
 
 ## Day 1 👍 : [ClickCounter-VanilaJS](/Day1-ClickCounter-VanilaJS/)
 - Day1-ClickCounter-VanilaJS
