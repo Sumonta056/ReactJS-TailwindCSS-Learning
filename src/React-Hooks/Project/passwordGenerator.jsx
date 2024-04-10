@@ -33,12 +33,10 @@ function passwordGenerator() {
   }, [length, numberAllowed, charAllowed]);
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen bg-teal-800">
       <div className="w-1/2 px-4 py-3 my-8 text-red-400 bg-gray-800 rounded-lg shadow-md m-7">
         <h1 className="pb-5 my-3 text-4xl font-medium text-center text-white">
-         
           Password Generator
-          
         </h1>
         <div className="flex mb-4 overflow-hidden rounded-lg shadow">
           <input

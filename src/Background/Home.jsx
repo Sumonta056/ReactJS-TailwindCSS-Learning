@@ -12,12 +12,22 @@ function Home() {
           Get ready to transform your React applications into visually stunning
           experiences.
         </p>
+        <div className="flex gap-2">
         <Link
-          to="/"
+          to="/password"
+          className="px-6 py-3 text-lg text-2xl no-underline bg-purple-500 rounded-lg font-semibold"
+        >
+          Password Generator
+        </Link>
+
+        <Link
+          to="/useContext"
           className="px-6 py-3 text-lg text-2xl no-underline bg-purple-500 rounded-lg"
         >
-          Start Now
+          useContext()
         </Link>
+        </div>
+     
       </div>
     </section>
   );

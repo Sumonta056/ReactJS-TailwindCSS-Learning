@@ -9,6 +9,8 @@
 
 ### Day 2 : [UseEffect, UseCallback, UseRef, UseState](/UseEffect_useCallback_useRef_useState/)
 
+<div align = "center" >
+
 | Resource Name                               | Link                                                                                                        |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | useEffect, useRef, useState and useCallback | [👉 Click Here](https://youtu.be/NmSh-YpmDU4?si=zvmLQOqh3c6wyaEy)                                           |
@@ -19,15 +21,28 @@
 | Learn Taliwind CSS TW Elements              | [👉 Click Here](https://tw-elements.com/learn/te-foundations/tailwind-css/about/)                           |
 | Font Awesome SVG icons                      | [👉 Click Here](https://fontawesome.com/icons/lock?f=classic&s=solid)                                       |
 
+</div>
+
 ### Day 3 : Tracking React JS Learning Tutorials Links
+
+<div align = "center" >
 
 | Topic Name                                   | Link                                                                                                      |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Complete Basic Much Needed React JS Tutorial | [👉 Click Here](https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&si=SpPYVs2OvTb-YATA) |
 | Understand the react flow and structure      | [👉 Click Here](https://youtu.be/yNbnA5pryMg?si=Y7wWvyIbEzGOMQ_P)                                         |
 
-### Day 4  : Learning All React Hooks and Adding Background
+</div>
+
+### Day 4 : Learning All React Hooks and Adding Background
+
+<div align = "center" >
 
 | Topic Name                                                       | Link                                                              |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Step-by-Step Tutorial: How to Add Background Image with React JS | [👉 Click Here](https://youtu.be/6J2t_RyQopU?si=cf23Pc4Ju82jer0X) |
+| React Lazy Component Loading with Suspense Handling              | [👉 Click Here](./src/App.jsx)                                    |
+| Learn React Hooks: useContext - Simply Explained!                | [👉 Click Here](https://youtu.be/HYKDUF8X3qI?si=2pw1jJ9-E24KcyNg) |
+| React useContext() hook introduction                             | [👉 Click Here](https://youtu.be/FpNfvbNYPsg?si=h246qQ3u7c3KxUuV) |
+
+</div>
