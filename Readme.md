@@ -1,15 +1,21 @@
-![](/logo.png)
+<div align = "center" >
 
-# Learning ReactJS & TailwindCSS
+## 😏 Learning ReactJS & TailwindCSS 😏
 
-### Day 1 : [ClickCounter-VanilaJS](/Day1-ClickCounter-VanilaJS/)
+<img src="/logo.png" width="500">
+
+</div>
+
+<hr>
+
+<!-- ### Day 1 : [ClickCounter-VanilaJS](/Day1-ClickCounter-VanilaJS/)
 
 - Day1-ClickCounter-VanilaJS
-- Use DOM Operation less - Fast Loading - Batch Update
-
-### Day 2 : [UseEffect, UseCallback, UseRef, UseState](/UseEffect_useCallback_useRef_useState/)
+- Use DOM Operation less - Fast Loading - Batch Update -->
 
 <div align = "center" >
+
+### 🌤️ Day 1 : [UseEffect, UseCallback, UseRef, UseState](/UseEffect_useCallback_useRef_useState/)
 
 | Resource Name                               | Link                                                                                                        |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -23,9 +29,11 @@
 
 </div>
 
-### Day 3 : Tracking React JS Learning Tutorials Links
+<hr>
 
 <div align = "center" >
+
+### 🌤️ Day 2 : Tracking React JS Learning Tutorials Links
 
 | Topic Name                                   | Link                                                                                                      |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -34,9 +42,11 @@
 
 </div>
 
-### Day 4 : Learning All React Hooks and Adding Background
+<hr>
 
 <div align = "center" >
+
+### 🌤️ Day 3 : Learning All React Hooks and Adding Background
 
 | Topic Name                                                       | Link                                                              |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
