@@ -7,13 +7,17 @@ const PasswordGenerator = lazy(() =>
 const UseContext = lazy(() =>
   import("./React-Hooks/useContext/useContext.jsx")
 );
+const UseEffect = lazy(() => import("./React-Hooks/useEffect/useEffect.jsx"));
+const SearchFilter = lazy(() =>
+  import("./React-Hooks/Project/searchfilter.jsx")
+);
 
 function App() {
   return (
     <BrowserRouter>
       <Suspense
         fallback={
-          <div className="flex items-center justify-center min-h-screen bg-black text-white text-4xl">
+          <div className="flex items-center justify-center min-h-screen text-4xl text-white bg-black">
             Loading...
           </div>
         }
@@ -21,7 +25,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home1 />} />
           <Route path="/password" element={<PasswordGenerator />} />
+          <Route path="/search" element={<SearchFilter />} />
           <Route path="/useContext" element={<UseContext />} />
+          <Route path="/useEffect" element={<UseEffect />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
