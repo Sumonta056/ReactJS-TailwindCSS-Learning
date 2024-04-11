@@ -11,6 +11,7 @@ const UseEffect = lazy(() => import("./React-Hooks/useEffect/useEffect.jsx"));
 const SearchFilter = lazy(() =>
   import("./React-Hooks/Project/searchfilter.jsx")
 );
+const Ref = lazy(() => import("./React-Hooks/useRef/useRef.jsx"));
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/search" element={<SearchFilter />} />
           <Route path="/useContext" element={<UseContext />} />
           <Route path="/useEffect" element={<UseEffect />} />
+          <Route path="/useRef" element={<Ref />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

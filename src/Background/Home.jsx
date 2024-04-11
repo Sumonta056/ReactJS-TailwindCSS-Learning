@@ -14,32 +14,38 @@ function Home() {
           Get ready to transform your React applications into visually stunning
           experiences.
         </p>
-        <div className="flex gap-2 flex-col m-2">
-          <div className="w-full flex gap-2 justify-center">
+        <div className="flex flex-col gap-2 m-2">
+          <div className="flex justify-center w-full gap-2">
             <Link
               to="/useEffect"
-              className="px-6 py-3 text-lg text-2xl no-underline bg-rose-600 rounded-lg font-semibold"
+              className="px-6 py-3 text-lg text-2xl font-semibold no-underline rounded-lg bg-rose-600"
             >
               useEffect()
             </Link>
             <Link
               to="/useContext"
-              className="px-6 py-3 text-lg text-2xl no-underline bg-teal-600 rounded-lg font-semibold"
+              className="px-6 py-3 text-lg text-2xl font-semibold no-underline bg-teal-600 rounded-lg"
             >
               useContext()
             </Link>
+            <Link
+              to="/useRef"
+              className="px-6 py-3 text-lg text-2xl font-semibold no-underline bg-orange-500 rounded-lg"
+            >
+              useRef()
+            </Link>
           </div>
-          <div className="w-full flex gap-2 justify-center">
+          <div className="flex justify-center w-full gap-2">
             <Link
               to="/password"
-              className="px-6 py-3 text-lg text-2xl no-underline bg-violet-600 rounded-lg font-semibold flex gap-2 items-center"
+              className="flex items-center gap-2 px-6 py-3 text-lg text-2xl font-semibold no-underline rounded-lg bg-violet-600"
             >
               <MdWifiPassword size={25} />
               Password Generator
             </Link>
             <Link
               to="/search"
-              className="px-6 py-3 text-lg text-2xl no-underline bg-rose-600 rounded-lg font-semibold flex gap-2 items-center"
+              className="flex items-center gap-2 px-6 py-3 text-lg text-2xl font-semibold no-underline rounded-lg bg-rose-600"
             >
               <FaSearch size={25} />
               Search Filter List
