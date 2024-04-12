@@ -34,6 +34,12 @@ function Home() {
             >
               useRef()
             </Link>
+            <Link
+              to="/useMemo"
+              className="px-6 py-3 text-lg text-2xl font-semibold no-underline bg-green-600 rounded-lg"
+            >
+              useMemo()
+            </Link>
           </div>
           <div className="flex justify-center w-full gap-2">
             <Link

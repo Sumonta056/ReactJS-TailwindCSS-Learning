@@ -12,6 +12,7 @@ const SearchFilter = lazy(() =>
   import("./React-Hooks/Project/searchfilter.jsx")
 );
 const Ref = lazy(() => import("./React-Hooks/useRef/useRef.jsx"));
+const Memo = lazy(() => import("./React-Hooks/useMemo/app.jsx"));
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/useContext" element={<UseContext />} />
           <Route path="/useEffect" element={<UseEffect />} />
           <Route path="/useRef" element={<Ref />} />
+          <Route path="/useMemo" element={<Memo />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
