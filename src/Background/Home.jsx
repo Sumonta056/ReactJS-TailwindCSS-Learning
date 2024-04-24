@@ -4,6 +4,8 @@ import HomeBack from "./assets/Home.jpg";
 import "./home.css";
 import { FaSearch } from "react-icons/fa";
 import { MdWifiPassword } from "react-icons/md";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import { FaHeartBroken } from "react-icons/fa";
 
 function Home() {
   return (
@@ -55,6 +57,23 @@ function Home() {
             >
               <FaSearch size={25} />
               Search Filter List
+            </Link>
+          </div>
+
+          <div className="flex justify-center w-full gap-2">
+            <Link
+              to="/brokenImage"
+              className="flex items-center gap-2 px-6 py-3 text-lg text-2xl font-semibold no-underline bg-red-600 rounded-lg"
+            >
+              <FaHeartBroken   size={25} />
+              Broken Image Handling
+            </Link>
+            <Link
+              to="/loading"
+              className="flex items-center gap-2 px-6 py-3 text-lg text-2xl font-semibold no-underline bg-green-800 rounded-lg"
+            >
+              <FaCloudDownloadAlt size={25} />
+              Loading Component
             </Link>
           </div>
         </div>

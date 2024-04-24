@@ -14,7 +14,24 @@ const SearchFilter = lazy(() =>
 const Ref = lazy(() => import("./React-Hooks/useRef/useRef.jsx"));
 const Memo = lazy(() => import("./React-Hooks/useMemo/app.jsx"));
 
+const BrokenImage = lazy(() =>
+  import("./Error Handling/Broken Image/Image.jsx")
+);
+
+const Loadng = lazy(() => import("./Error Handling/Loading/index.jsx"));
+
 function App() {
+  const routes = [
+    { path: "/", element: <Home1 /> },
+    { path: "/password", element: <PasswordGenerator /> },
+    { path: "/search", element: <SearchFilter /> },
+    { path: "/useContext", element: <UseContext /> },
+    { path: "/useEffect", element: <UseEffect /> },
+    { path: "/useRef", element: <Ref /> },
+    { path: "/useMemo", element: <Memo /> },
+    { path: "/brokenImage", element: <BrokenImage /> },
+    { path: "/loading", element: <Loadng /> },
+  ];
   return (
     <BrowserRouter>
       <Suspense
@@ -25,13 +42,9 @@ function App() {
         }
       >
         <Routes>
-          <Route path="/" element={<Home1 />} />
-          <Route path="/password" element={<PasswordGenerator />} />
-          <Route path="/search" element={<SearchFilter />} />
-          <Route path="/useContext" element={<UseContext />} />
-          <Route path="/useEffect" element={<UseEffect />} />
-          <Route path="/useRef" element={<Ref />} />
-          <Route path="/useMemo" element={<Memo />} />
+          {routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.element} />
+          ))}
         </Routes>
       </Suspense>
     </BrowserRouter>
